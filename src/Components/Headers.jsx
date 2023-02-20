@@ -21,7 +21,7 @@ const PcHeader = function(){
             wrapper.style.marginLeft = "-50vw";
         wrapper.style.transition = "0.3s ease-in-out";
         sideBar.style.transition = "0.3s ease-in-out";
-        sideBar.style.width = "0vw";
+        sideBar.style.width = "50vw";
         sideBar.style.marginRight = "0vw";
        
         }else{
