@@ -90,14 +90,15 @@ const LaunchDate = () =>{
                 <div className="left-l-date">
                     <h1>Get Ready For Our ICO Launch</h1>
                     <p>
-                    Lorem ipsum dolor sit amet, 
-                    consectetur adipiscing elit. 
-                    Suspendisse viverra lectus neque.
+                    Careful Watchers offers comprehensive cyber 
+                    security solutions to help Businesses, 
+                    Organizations and Individuals protect 
+                    themselves from digital threats.
                     </p>
                     <br />
                     <p className = 'bottonx-area'>
                         <button>Learn More</button>
-                        <button>
+                        <button className = 'vid-btn'>
                             <FaPlay />
                             &nbsp;&nbsp;Video
                         </button>

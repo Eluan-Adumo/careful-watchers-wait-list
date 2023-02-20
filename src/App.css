@@ -59,6 +59,10 @@ input, button, textarea{
 body{
     /* overflow-y: hidden; */
 }
+.vid-btn:hover{
+    background: var(--cyan);
+    background-size: 20% 100%;
+}
 .wrapper{
     display: grid;
     grid-template-columns: auto;
@@ -374,6 +378,7 @@ footer{
 }
 
 
+
 .tit-area{
     color: white;
     font-size: 120%;
@@ -500,7 +505,7 @@ margin-top: 50px;
     .wrapper{
         display: grid;
         grid-template-columns: auto;
-        row-gap: 10vh;
+        row-gap: 5vh;
         width: 100%;
         min-height: 100vh;
         background: linear-gradient(rgba(0, 0, 100, 0.7), rgba(0, 0, 50, 0.7)), url("resources/security.jpg");
@@ -599,7 +604,7 @@ margin-top: 50px;
 }
     .left-l-date h1{
         color: white;
-        font-size: 35px;
+        font-size: 30px;
     }
     
     .left-l-date p{
@@ -828,7 +833,7 @@ margin-top: 50px;
         display: grid;
         width: 100%;
         grid-template-columns: 100%;
-        column-gap: 3%;
+        row-gap: 5%;
     }
     
     

@@ -181,7 +181,7 @@ const SideBar = ()=>{
 
 
                     <div className = 'address-div'>
-                        <h2>Address</h2>
+                        <h2>Address</h2><br />
                         <p>
                             478 Nancy Street<br />
                             +1 919-571-2528<br />
