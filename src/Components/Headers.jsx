@@ -14,18 +14,26 @@ export default function Header(){
 
 const PcHeader = function(){
     const toggleMenu = ()=>{
+        // FUNCTION TO SHOW SIDEBAR
          let wrapper = document.querySelector(".wrapper");
         let sideBar = document.querySelector(".side-bar");
         if(window.innerWidth >=600){
             wrapper.style.marginLeft = "-50vw";
         wrapper.style.transition = "0.3s ease-in-out";
-        sideBar.style.marginRight = "0vw";
         sideBar.style.transition = "0.3s ease-in-out";
+        sideBar.style.width = "0vw";
+        sideBar.style.marginRight = "0vw";
+       
         }else{
+        
             wrapper.style.marginLeft = "-100vw";
             wrapper.style.transition = "0.3s ease-in-out";
-            sideBar.style.marginRight = "0vw";
             sideBar.style.transition = "0.3s ease-in-out";
+            sideBar.style.width = "100vw";
+            sideBar.style.marginRight = "0vw";
+            
+           
+           
         }
        
 

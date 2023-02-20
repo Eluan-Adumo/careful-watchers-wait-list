@@ -1,6 +1,7 @@
 import React from 'react';
 import team1 from "../resources/person-02.jpg";
 import team2 from "../resources/person-04.jpg";
+import team3 from "../resources/person-01.jpg";
 import ic1 from "../resources/icon-wallet.png";
 import ic2 from "../resources/icon-cloud.png";
 import ic3 from "../resources/icon-laptop.png";
@@ -8,19 +9,26 @@ import tImage from "../resources/image-01.jpg";
 import map from "../resources/map.png";
 
 const SideBar = ()=>{
+    // HIDE SIDE BAR
     const hideMenu = ()=>{
         let wrapper = document.querySelector(".wrapper");
         let sideBar = document.querySelector(".side-bar");
         if(window.innerWidth >=600){
             wrapper.style.marginLeft = "0vw";
             wrapper.style.transition = "0.3s ease-in-out";
-            sideBar.style.marginRight = "-50vw";
+            
             sideBar.style.transition = "0.3s ease-in-out";
+            sideBar.style.marginRight = "-50vw";
+            sideBar.style.width = "0vw";
+            
         }else{
+            
             wrapper.style.marginLeft = "0vw";
         wrapper.style.transition = "0.3s ease-in-out";
-        sideBar.style.marginRight = "-100vw";
         sideBar.style.transition = "0.3s ease-in-out";
+        sideBar.style.marginRight = "-100vw";
+        sideBar.style.width = "0vw";
+       
         }
         
     }
@@ -45,7 +53,7 @@ const SideBar = ()=>{
                 <div className = 'side-bar-team'>
                     <div className = 'each-team'>
                         
-                            <img src = {team1} />
+                            <img src = {team3} />
                         <div className = 'each-team-name'>
                             
                             <p>
@@ -61,8 +69,8 @@ const SideBar = ()=>{
                         <div className = 'each-team-name'>
                             
                             <p>
-                            <span className= 'team-title'>Jane Doe</span>
-                                <span className = 'team-off'>Company CEO</span>
+                            <span className= 'team-title'>John Doe</span>
+                                <span className = 'team-off'>Marketing Guru</span>
                             </p>
                         </div>
                     </div>
@@ -176,7 +184,7 @@ const SideBar = ()=>{
                         <p>
                             478 Nancy Street<br />
                             +1 919-571-2528<br />
-                            hello@example.com
+                            <span className = 'email-add'>hello@example.com</span>
                         </p>
                     </div>
 
