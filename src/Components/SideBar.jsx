@@ -173,6 +173,7 @@ const SideBar = ()=>{
                     </div>
                     <div className = 'sbc-map'>
                         <h2>Map</h2>
+                        <br />
                         <div className = 'sbc-map-main'>
                             <img src = {map} className = 'map-image' />
                         </div>
