@@ -10,7 +10,7 @@
   }
 
   html, body{
-    width: 100vw;
+    width: 100%;
     height: 100%;
     font-family: "Open-Sans-medium";
   }
@@ -57,7 +57,7 @@ input, button, textarea{
     
 
 body{
-    /* overflow-y: hidden; */
+
 }
 .vid-btn:hover{
     background: var(--cyan);
@@ -74,6 +74,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
+    position: fixed;
 }
 
 .menu-bar{
@@ -219,12 +220,33 @@ footer{
     margin-right: -50vw;
     background: var(--dark-blue);
     min-height: 100vh;
-    position: fixed;
+    position: scroll;
     right: 0px;
     top: 0px;
     overflow-y: scroll;
-    overflow-x: hidden;
+   
 }
+
+.side-bar::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  /* Track */
+  .side-bar::-webkit-scrollbar-track {
+    background: white; 
+  }
+   
+  /* Handle */
+  .side-bar::-webkit-scrollbar-thumb {
+    background: #bbbaba; 
+    border: 0px solid grey;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  .side-bar::-webkit-scrollbar-thumb:hover {
+    background: lightgrey; 
+  }
 
 .side-bar-content{
     display: block;

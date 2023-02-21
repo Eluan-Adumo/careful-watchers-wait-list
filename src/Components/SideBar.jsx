@@ -1,7 +1,8 @@
 import React from 'react';
-import team1 from "../resources/person-02.jpg";
-import team2 from "../resources/person-04.jpg";
-import team3 from "../resources/person-01.jpg";
+import team1 from "../resources/PHOTO-2023-02-20-13-52-14_1.jpg";
+import team2 from "../resources/PHOTO-2023-02-20-13-52-14_2.jpg";
+import team3 from "../resources/PHOTO-2023-02-20-13-52-14.jpg";
+import team4 from "../resources/PHOTO-2023-02-20-13-52-15.jpg";
 import ic1 from "../resources/icon-wallet.png";
 import ic2 from "../resources/icon-cloud.png";
 import ic3 from "../resources/icon-laptop.png";
@@ -23,7 +24,7 @@ const SideBar = ()=>{
             
         }else{
             
-            wrapper.style.marginLeft = "0vw";
+        wrapper.style.marginLeft = "0vw";
         wrapper.style.transition = "0.3s ease-in-out";
         sideBar.style.transition = "0.3s ease-in-out";
         sideBar.style.marginRight = "-100vw";
@@ -87,6 +88,19 @@ const SideBar = ()=>{
                             </p>
                         </div>
                     </div>
+
+
+                    <div className = 'each-team'>
+                        
+                        <img src = {team4} />
+                    <div className = 'each-team-name'>
+                        
+                        <p>
+                        <span className= 'team-title'>Susan Erwing</span>
+                            <span className = 'team-off'>Support</span>
+                        </p>
+                    </div>
+                </div>
                 </div>
 
                 <div className = 'side-bar-feats'>
