@@ -46,10 +46,10 @@ const SideBar = ()=>{
                     </div>
                 </div>
                 <div className='side-bar-intro'>
-                Uis commodo arcu at egestas vehicula. Maecenas auctor sagittis nulla 
-                laoreet vestibulum.
-                 Vivamus congue diam blandit quam efficitur, vel mattis lacus feugiat. 
-                 Integer tempus interdum felis, ut luctus nunc.
+                Careful Watchers offers comprehensive cyber 
+                    security solutions to help Businesses, 
+                    Organizations and Individuals protect 
+                    themselves from digital threats.
                 </div>
                 <div className = 'side-bar-team'>
                     <div className = 'each-team'>
@@ -162,8 +162,10 @@ const SideBar = ()=>{
                         Our Mission
                     </div>
                     <div className = 'sbm-intro'>
-                    Nam rhoncus elit ut nibh sagittis varius. Maecenas aliquam ex ut magna cursus pulvinar
-                    </div>
+                    At Careful Watchers we are also dedicated to offering the top cyber security services to 
+our customers. Our team of professionals has a pack of experience dealing with a variety 
+of cyber security risks, and we are constantly available to assist businesses in enhancing 
+their security posture and defending themselves against online dangers.                    </div>
                     <ul className = 'sbm-ul'>
                         <li>
                             Nulla Facilisi
@@ -198,8 +200,11 @@ const SideBar = ()=>{
                         <h2>Address</h2><br />
                         <p>
                             478 Nancy Street<br />
-                            +1 919-571-2528<br />
-                            <span className = 'email-add'>hello@example.com</span>
+                            +44-7442-104683<br />
+                            +353-87-395-5505<br />
+                            https://carefulwatchers.co.uk
+                            <br />
+                            <span className = 'email-add'>carefulwatcherz@gmail.com</span>
                         </p>
                     </div>
 

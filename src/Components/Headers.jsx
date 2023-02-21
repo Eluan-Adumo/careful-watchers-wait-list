@@ -31,9 +31,6 @@ const PcHeader = function(){
             sideBar.style.transition = "0.3s ease-in-out";
             sideBar.style.width = "100vw";
             sideBar.style.marginRight = "0vw";
-            
-           
-           
         }
        
 
