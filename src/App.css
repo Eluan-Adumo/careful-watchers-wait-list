@@ -247,7 +247,10 @@ footer{
   .side-bar::-webkit-scrollbar-thumb:hover {
     background: lightgrey; 
   }
-
+.cf-logo{
+    max-width: 150px;
+    margin-top: -55px;
+}
 .side-bar-content{
     display: block;
     float: left;
@@ -871,7 +874,10 @@ margin-top: 50px;
         line-height: 25px;
     }
     
-    
+    .cf-logo{
+        max-width: 100px;
+        margin-top: -38px;
+    }
     
     .side-bar-mission{
         display: grid;

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import logo from "../resources/logo.png";
 
 export default function Header(){
 
@@ -47,7 +47,7 @@ const PcHeader = function(){
             <header className = 'pc-header'>
                 <nav className = 'pc-nav'>
                         <div className = 'pc-nav-left'>
-                            Careful Watchers
+                           <img src = {logo} className = 'cf-logo'/>
                         </div>
                         <div className = 'pc-nav-right'>
                             <button className = 'menu-bar' onClick = {toggleMenu}>
@@ -78,7 +78,7 @@ const MobileHeader = function(){
             <header className = 'pc-header'>
                 <nav className = 'pc-nav'>
                         <div className = 'pc-nav-left'>
-                            Careful Watchers
+                        <img src = {logo} className = 'cf-logo'/>
                         </div>
                         <div className = 'pc-nav-right'>
                             <button className = 'menu-bar'>
