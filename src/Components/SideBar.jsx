@@ -3,6 +3,7 @@ import team1 from "../resources/PHOTO-2023-02-20-13-52-14_1.jpg";
 import team2 from "../resources/PHOTO-2023-02-20-13-52-14_2.jpg";
 import team3 from "../resources/PHOTO-2023-02-20-13-52-14.jpg";
 import team4 from "../resources/PHOTO-2023-02-20-13-52-15.jpg";
+import team5 from "../resources/PHOTO-2023-02-21-13-44-02.jpg";
 import ic1 from "../resources/icon-wallet.png";
 import ic2 from "../resources/icon-cloud.png";
 import ic3 from "../resources/icon-laptop.png";
@@ -100,6 +101,18 @@ const SideBar = ()=>{
                             <span className = 'team-off'>Support</span>
                         </p>
                     </div>
+
+                    <div className = 'each-team'>
+                        
+                            <img src = {team5} />
+                        <div className = 'each-team-name'>
+                            
+                            <p>
+                            <span className= 'team-title'>Susan Erwing</span>
+                                <span className = 'team-off'>Support</span>
+                            </p>
+                        </div>
+                    </div>                    
                 </div>
                 </div>
 
