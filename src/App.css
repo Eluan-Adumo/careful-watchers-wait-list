@@ -51,7 +51,8 @@
 }
 
 body{
-    background: var(--dark-blue);
+    background: #03192f;
+    
   }
 input, button, textarea{
     outline: none;
@@ -162,10 +163,11 @@ body{
 }
 
 .left-l-date p{
-    color: grey;
+    color: #a6a6a6;
     font-size: 18px;
     line-height: 30px;
-    margin-top: 10px;
+    margin-top: 15px;
+    font-size: 95%;
 }
 .right-l-date{
     color: white;
@@ -265,7 +267,7 @@ footer{
     float: right;
     width: 0vw;
     margin-right: -50vw;
-    background: var(--dark-blue);
+    background: rgba(0, 0, 100, 0.3);
     min-height: 100vh;
     position: scroll;
     right: 0px;
@@ -773,7 +775,7 @@ margin-top: 50px;
         float: right;
         width: 0vw;
         margin-right: -100vw;
-        background: var(--dark-blue);
+       background: rgba(0, 0, 100, 0.3);
         min-height: 100vh;
         position: absolute;
         right: 0px;
