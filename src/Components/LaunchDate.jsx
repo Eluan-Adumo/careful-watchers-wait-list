@@ -88,7 +88,7 @@ const LaunchDate = () =>{
             <section className = 'l-date'>
 
                 <div className="left-l-date">
-                    <h1>Get Ready For Our ICO Launch</h1>
+                    <h1>Get Ready For Our Launch</h1>
                     <p>
                     Careful Watchers offers comprehensive cyber 
                     security solutions to help Businesses, 
@@ -97,11 +97,8 @@ const LaunchDate = () =>{
                     </p>
                     <br />
                     <p className = 'bottonx-area'>
-                        <button>Learn More</button>
-                        <button className = 'vid-btn'>
-                            <FaPlay />
-                            &nbsp;&nbsp;Video
-                        </button>
+                        <input type = 'text' placeholder = 'Enter email address' className = 'email-sub-field' />
+                        <button className = 'reg-sub-btn'>Subscribe</button>
                     </p>
                 </div>
                 <div className = 'right-l-date'>
