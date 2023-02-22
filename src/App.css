@@ -580,9 +580,9 @@ margin-top: 50px;
         row-gap: 5vh;
         width: 100%;
         min-height: 100vh;
-        background: linear-gradient(rgba(0, 0, 100, 0.7), rgba(0, 0, 50, 0.7)), url("resources/security.jpg");
+        background: linear-gradient(rgba(0, 0, 100, 0.4), rgba(0, 0, 50, 0.5)), url("resources/hero-bg.jpg");
         background-size: cover;
-        background-position: center;
+        background-position: lrft center;
         background-repeat: no-repeat;
         height: 100vh;
         overflow: hidden;
@@ -703,8 +703,8 @@ margin-top: 50px;
     .bottonx-area{
         display: grid;
         width: 100%;
-        grid-template-columns: 40% 40%;
-        column-gap: 10%;
+        grid-template-columns: auto;
+        row-gap: 10%;
         margin-top: -30px;
     }
     
@@ -717,13 +717,9 @@ margin-top: 50px;
         font-family: inherit;
     }
     
-    .bottonx-area button:first-child{
-        background: var(--cyan);
-        color: white;
-        width: 100%;
-        border-color: var(--cyan);
-        border-width: 1px;
-        border-style: solid;
+    .bottonx-area:first-child{
+        height: 35px;
+        padding: 1%;
     }
     .bottonx-area button:nth-child(even){
         background: transparent;
@@ -1112,6 +1108,12 @@ margin-top: 50px;
         font-size: 9px;
         color: lightgrey;
         font-weight: lighter;
+    }
+
+    .email-sub-field{
+        height: 40px;
+        padding: 1%;
+        border: none;
     }
     
 }
