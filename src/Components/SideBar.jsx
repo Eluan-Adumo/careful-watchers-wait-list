@@ -176,7 +176,7 @@ const SideBar = ()=>{
                         Our Mission
                     </div>
                     <div className = 'sbm-intro'>
-                    At Careful Watchers we are also dedicated to offering the top cyber security services to 
+                    At Careful Watchers we are dedicated to offering the top cyber security services to 
 our customers. Our team of professionals has a pack of experience dealing with a variety 
 of cyber security risks, and we are constantly available to assist businesses in enhancing 
 their security posture and defending themselves against online dangers.                    </div>
