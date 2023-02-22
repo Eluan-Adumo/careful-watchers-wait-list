@@ -91,7 +91,7 @@ const SideBar = ()=>{
                     </div>
 
 
-                    <div className = 'each-team'>
+                <div className = 'each-team'>
                         
                         <img src = {team4} />
                     <div className = 'each-team-name'>
@@ -101,19 +101,20 @@ const SideBar = ()=>{
                             <span className = 'team-off'>Support</span>
                         </p>
                     </div>
-
-                    <div className = 'each-team'>
-                        
-                            <img src = {team5} />
-                        <div className = 'each-team-name'>
-                            
-                            <p>
-                            <span className= 'team-title'>Susan Erwing</span>
-                                <span className = 'team-off'>Support</span>
-                            </p>
-                        </div>
-                    </div>                    
                 </div>
+
+
+                <div className = 'each-team'>
+                        
+                        <img src = {team5} />
+                    <div className = 'each-team-name'>
+                        
+                        <p>
+                        <span className= 'team-title'>Susan Erwing</span>
+                            <span className = 'team-off'>Support</span>
+                        </p>
+                    </div>
+                </div>                
                 </div>
 
                 <div className = 'side-bar-feats'>
