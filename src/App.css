@@ -275,9 +275,66 @@ footer{
     overflow-y: scroll;
    
 }
+.whole-page{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    column-gap: 10%;
+    width: 80%;
+    margin: 0px auto;
 
+ 
+}
+
+.page-left{
+    color: white;
+}
+.page-left h2{
+    margin-bottom: 2rem;
+}
+
+.page-right{
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 10px;
+    height: 190px;
+    box-sizing: border-box;
+
+}
+.page-right div{
+
+}
+
+.page-right input[type="text"], .page-right input[type="email"]{
+    height: 40px;
+    background: transparent;
+    border: 1px solid white;
+    padding: 1%;
+    color: white;
+    text-transform: capitalize;
+    font-family: inherit;
+}
+
+.page-right input[type="text"]::placeholder, .page-right input[type="email"]::placeholder{
+    color: white;
+}
+.page-right:first-child{
+    display: grid;
+    grid-template-columns: 49% 49%;
+    column-gap: 1%;
+}
+
+#l-name{
+    float: right;
+}
+#f-name, #l-name{
+    width: 48%;
+}
 .side-bar::-webkit-scrollbar {
     width: 0px;
+  }
+
+  #email-main, #company-main{
+    width: 100%;
   }
   
   /* Track */
@@ -295,6 +352,23 @@ footer{
   /* Handle on hover */
   .side-bar::-webkit-scrollbar-thumb:hover {
     background: lightgrey; 
+  }
+
+  #join-btn{
+    background: goldenrod;
+    color: white;
+    height: 40px;
+    padding: 1%;
+    border: 0px solid white;
+    border-radius: 4px;
+    width: 100%;
+  }
+  .wrap{
+    width: 100%;
+    height: 100%;
+
+    background: linear-gradient(rgba(0, 0, 100, 0.4), rgba(0, 0, 50, 0.5)), url("resources/hero-bg.jpg");
+    background-size: cover;
   }
 .cf-logo{
     max-width: 150px;
@@ -717,6 +791,9 @@ margin-top: 50px;
         cursor: pointer;
         font-weight: bolder;
         font-family: inherit;
+        background: var(--cyan);
+        color: white;
+        border: none;
     }
     
     .bottonx-area:first-child{
@@ -998,11 +1075,12 @@ margin-top: 50px;
         display: grid;
         grid-template-columns: 90% 5%;
         column-gap: 5%;
-        height: 50px;
+        min-height: 50px;
         margin-bottom: 5px;
         border-bottom: 0.2px solid lightgrey;
         cursor: pointer;
         font-size: 90%;
+        padding-bottom: 1%;
     }
     
     .side-bar-faq ul{
@@ -1049,7 +1127,9 @@ margin-top: 50px;
         font-family: inherit;
         text-indent: 10px;
     }
-    
+    .icons-side{
+        font-size: 30px;
+    }
     .send-msg button{
         display: block;
         float: right;
@@ -1117,5 +1197,94 @@ margin-top: 50px;
         padding: 1%;
         border: none;
     }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .whole-page{
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: repeat(autofit,minmax(250px,400px));
+        gap: 1rem;
+    }
+    
+    .page-left{
+        color: white;
+    }
+
+    .page-left h2{
+        margin-bottom: .4rem;
+    }
+    
+    .page-right,.page-left{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .page-right div{
+        width:100%;
+        margin-bottom: 1rem;
+    }
+    
+    .page-right input[type="text"], .page-right input[type="email"]{
+        height: 40px;
+        background: transparent;
+        border: 1px solid white;
+        padding: 1%;
+        color: white;
+        text-transform: capitalize;
+        font-family: inherit;
+    }
+    
+    .page-right input[type="text"]::placeholder, .page-right input[type="email"]::placeholder{
+        color: white;
+    }
+    .page-right:first-child{
+        display: grid;
+        grid-template-columns: 49% 49%;
+        column-gap: 1%;
+    }
+    
+    #l-name{
+        float: right;
+    }
+    #f-name, #l-name{
+        width: 48%;
+    }
+    .side-bar::-webkit-scrollbar {
+        width: 0px;
+      }
+    
+      #email-main, #company-main{
+        width: 100%;
+      }
+
+      #join-btn{
+        background: goldenrod;
+        color: white;
+        height: 40px;
+        padding: 1%;
+        border: 0px solid white;
+        border-radius: 4px;
+        width: 100%;
+      }
     
 }

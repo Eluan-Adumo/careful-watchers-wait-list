@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from "react";
+import {Link} from "react-router-dom";
 import {FaPlay} from 'react-icons/fa';
 import autoVideo from "../resources/Smoke Loop.mp4";
 const LaunchDate = () =>{
@@ -97,8 +98,10 @@ const LaunchDate = () =>{
                     </p>
                     <br />
                     <p className = 'bottonx-area'>
-                        <input type = 'text' placeholder = 'Enter email address' className = 'email-sub-field' />
-                        <button className = 'reg-sub-btn'>Subscribe</button>
+                        {/* <input type = 'text' placeholder = 'Enter email address' className = 'email-sub-field' /> */}
+                       <Link to = "/subscribe">
+                        <button className = 'reg-sub-btn'>Join the waitlist</button>
+                    </Link>
                     </p>
                 </div>
                 <div className = 'right-l-date'>

@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from "../resources/logo.png";
+import { Link } from 'react-router-dom';
 
 export default function Header(){
 
@@ -44,7 +45,7 @@ const PcHeader = function(){
             <header className = 'pc-header'>
                 <nav className = 'pc-nav'>
                         <div className = 'pc-nav-left'>
-                           <img src = {logo} className = 'cf-logo'/>
+                           <Link to ="/"><img src = {logo} className = 'cf-logo'/></Link>
                         </div>
                         <div className = 'pc-nav-right'>
                             <button className = 'menu-bar' onClick = {toggleMenu}>
