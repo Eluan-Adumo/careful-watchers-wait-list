@@ -31,7 +31,7 @@ const LaunchDate = () =>{
       }
 
 
-      const deadline = 'February 27 2023';
+      const deadline = 'March 11 2023';
       function initializeClock(id, endtime) {
         const clock = document.getElementById(id);
         function updateClock(){

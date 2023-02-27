@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import team1 from "../resources/PHOTO-2023-02-20-13-52-14_1.jpg";
 import team2 from "../resources/pastor.jpg";
 import team3 from "../resources/PHOTO-2023-02-20-13-52-14.jpg";
@@ -11,9 +11,9 @@ import ic1 from "../resources/icon-wallet.png";
 import ic2 from "../resources/icon-cloud.png";
 import ic3 from "../resources/icon-laptop.png";
 import tImage from "../resources/person-04-hacker.jpg";
-import map from "../resources/map.png";
 import {FaBrain, FaSun} from "react-icons/fa";
 import {BsFillQuestionCircleFill} from "react-icons/bs";
+import {Link} from "react-router-dom";
 
 const SideBar = ()=>{
     // HIDE SIDE BAR
@@ -39,6 +39,12 @@ const SideBar = ()=>{
         }
         
     }
+
+    useEffect(()=>{
+        // Create the script tag, set the appropriate attributes
+
+    });
+
     return(
         <>
         <section className = 'side-bar'>
@@ -451,6 +457,7 @@ const SideBar = ()=>{
 
                 </ul>
                 </div>
+                <Link to = '/subscribe'><input type = 'button' value = 'Join the Waitlist' className = 'jtw'/></Link>
                 <div className = 'side-bar-contact'>
                     <div className = 'sbc-header'>
                         Contact
@@ -459,15 +466,24 @@ const SideBar = ()=>{
                         <h2>Map</h2>
                         <br />
                         <div className = 'sbc-map-main'>
-                            <img src = {map} className = 'map-image' />
+                            <MapView />
                         </div>
+
+                    </div>
+
+
+                    <div className = 'map-main'>
+
+
+
+
                     </div>
 
 
                     <div className = 'address-div'>
                         <h2>Address</h2><br />
                         <p>
-                            +44-7442-104683<br />
+
                             +353-87-395-5505<br />
                             https://carefulwatchers.co.uk
                             <br />
@@ -475,7 +491,7 @@ const SideBar = ()=>{
                         </p>
                     </div>
 
-                    <div className = 'send-msg'>
+                    <form action = 'https://formsubmit.co/support@carefulwatchers.co.uk' method = "post" className = 'send-msg'>
                         <h2>Contact Form</h2>
                         <div className = 'cf-names'>
                             <input type = 'text' placeholder='Your Name' />
@@ -485,7 +501,7 @@ const SideBar = ()=>{
                             <textarea className = 'tr' placeholder='Your Message'></textarea>
                         </div>
                         <button>Send Message</button>
-                    </div>
+                    </form>
                 </div>
 
 
@@ -496,5 +512,24 @@ const SideBar = ()=>{
     )
 }
 
+const MapView = ()=>{
 
+    return(
+
+        <>
+
+            <div className="mapouter">
+                <div className="gmap_canvas">
+                    <iframe width="100%" height="100%" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=Dublin Tyrells town&t=&z=19&ie=UTF8&iwloc=&output=embed"
+                            frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe>
+                    {/*<Link to="https://2yu.co">2yu</Link><br />*/}
+
+                    {/*<Link to="https://embedgooglemap.2yu.co/">html embed google map</Link>*/}
+
+                </div>
+            </div>
+        </>
+    )
+}
 export default SideBar
