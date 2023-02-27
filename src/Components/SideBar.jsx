@@ -474,7 +474,7 @@ const SideBar = ()=>{
 
 
 
-
+                        <br />
                     <div className = 'address-div'>
                         <h2>Address</h2><br />
                         <p>

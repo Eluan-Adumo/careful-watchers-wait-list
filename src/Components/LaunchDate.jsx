@@ -43,29 +43,29 @@ const LaunchDate = () =>{
             clock.innerHTML = `
             <ul class = 'time-ul'>
             <li>
-            <h1 class = 'value'>${t.days}</h1> 
-            <span class = 'key'>Days</span>
+            <h1 class = 'value'><center>${t.days}</center></h1> 
+            <span class = 'key'><center>Days</center></span>
             
             </li> 
             <li>
             <h1 class = 'value'>
-            ${t.hours} 
+            <center>${t.hours}</center>
             </h1> 
             <span class = 'key'>Hours</span>
             
             </li> 
             <li>
             <h1 class = 'value'>
-            ${t.minutes} 
+            <center>${t.minutes}</center>
             </h1> 
             <span class = 'key'>Minutes</span>
             
             </li> 
             <li>
             <h1 class = 'value'>
-            ${t.seconds}
+            <center>${t.seconds}</center>
             </h1> 
-            <span class = 'key'>Seconds</span>
+            <span class = 'key'><center>Seconds</center></span>
             </li>
             
             </ul>`;

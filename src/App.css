@@ -16,6 +16,10 @@
     font-family: "Open-Sans-medium";
   }
 
+body{
+    background: #03192f;
+     overflow-x: hidden;
+}
 input{
     font-family: inherit;
 }
@@ -51,10 +55,7 @@ input{
     --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 }
 
-body{
-    background: #03192f;
-    
-  }
+
 input, button, textarea{
     outline: none;
 }
@@ -64,9 +65,7 @@ input, button, textarea{
 @media screen and (min-width: 600px){
     
 
-body{
 
-}
 .vid-btn:hover{
     background: var(--cyan);
     background-size: 20% 100%;
@@ -638,7 +637,7 @@ margin-top: 50px;
 
 .cf-names input{
     height: 40px;
-    border: 1px solid grey;
+    border: 1px solid lightgrey;
     border-radius: 5px;
     text-indent: 10px;
     background: transparent;
@@ -661,14 +660,17 @@ margin-top: 50px;
 
 .tr{
     background: transparent;
-    border: 1px solid grey;
+    border: 1px solid lightgrey;
     border-radius: 5px;
     height: 200px;
     width: 100%;
     resize: none;
-    padding: .3rem;
+    padding: .4rem;
     font-family: inherit;
 }
+    .cf-names input::placeholder, .tr::placeholder{
+        color: white;
+    }
 
 .send-msg button{
     display: block;
@@ -692,10 +694,7 @@ margin-top: 50px;
 }
 
 @media screen and (max-width: 600px){
-    body{
-        /* overflow-x: hidden;
-        overflow-y: hidden; */
-    }
+
     .wrapper{
         display: grid;
         grid-template-columns: auto;
@@ -1156,20 +1155,22 @@ margin-top: 50px;
     
     .cf-names input{
         height: 40px;
-        border: 1px solid grey;
+        border: 1px solid lightgrey;
         border-radius: 5px;
         text-indent: 10px;
         background: transparent;
     }
-    
+    .cf-names input::placeholder, .tr::placeholder{
+        color: white;
+    }
     
     .tr{
         background: transparent;
-        border: 1px solid grey;
+        border: 1px solid lightgrey;
         border-radius: 5px;
         height: 200px;
         width: 100%;
-        padding: 1%;
+        padding: 2%;
         resize: none;
         font-family: inherit;
         text-indent: 5px;
@@ -1225,7 +1226,7 @@ margin-top: 50px;
         display: block;
         float: left;
         height: 30px;
-        text-align: left;
+        text-align: center;
     }
 
     .key{
@@ -1233,7 +1234,7 @@ margin-top: 50px;
         float: left;
         height: 20px;
         width: 100%;
-        text-align: left;
+        text-align: center;
         font-size: 9px;
         color: lightgrey;
         font-weight: lighter;
@@ -1336,6 +1337,7 @@ margin-top: 50px;
 
     .mapouter
     {
+        background: rgba(0, 0, 0, .5);
         position:relative;
         text-align:right;
         height:100%;
