@@ -11,10 +11,10 @@ const Footer = () =>{
                 <div className = 'footer-content'>
                     <div className = 'footer-left'>
 
-                        <Link to ='/https://www.facebook.com/carefulwatchers
-'><FaFacebookSquare /></Link> <Link to = '/https://twitter.com/carefulwatchers
-'><FaTwitter /></Link> <Link><TfiLinkedin to = '/https://www.linkedin.com/company/92740567/admin/'/></Link>
-                        <Link to = '/https://www.instagram.com/carefulwatcher/'><FaInstagram /></Link>
+                        <Link to ={'https://www.facebook.com/carefulwatchers'}><FaFacebookSquare /></Link>
+                        <Link to = {'https://twitter.com/carefulwatchers'}><FaTwitter /></Link>
+                        <Link to = {'https://www.linkedin.com/company/92740567/admin/'}><TfiLinkedin /></Link>
+                        <Link to = {'https://www.instagram.com/carefulwatcher/'}><FaInstagram /></Link>
                     </div>
                     <div className = 'footer-right'>&copy; careful Watchers 2023</div>
                 </div>

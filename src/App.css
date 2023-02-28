@@ -641,6 +641,7 @@ margin-top: 50px;
     border-radius: 5px;
     text-indent: 10px;
     background: transparent;
+    color: white;
 }
 
 .jtw{
@@ -667,6 +668,7 @@ margin-top: 50px;
     resize: none;
     padding: .4rem;
     font-family: inherit;
+    color: white;
 }
     .cf-names input::placeholder, .tr::placeholder{
         color: white;
@@ -1159,6 +1161,7 @@ margin-top: 50px;
         border-radius: 5px;
         text-indent: 10px;
         background: transparent;
+        color: white;
     }
     .cf-names input::placeholder, .tr::placeholder{
         color: white;
@@ -1174,6 +1177,7 @@ margin-top: 50px;
         resize: none;
         font-family: inherit;
         text-indent: 5px;
+        color: white;
     }
     .icons-side{
         font-size: 30px;

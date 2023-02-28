@@ -3,7 +3,13 @@ import Header from "./Headers";
 import Footer from "./Footer";
 import SideBar from "./SideBar";
 const Subscribe = ()=>{
-
+    const message = `Thank you for your interest in our service and for signing up for our waitlist! We are thrilled to have you on board and look forward to offering you our best services.
+                As you know, we have limited availability and high demand for our offerings, and we appreciate your patience and understanding as we work to accommodate everyone on our waitlist.
+                Rest assured that we will keep you updated on your status and notify you as soon as a spot becomes available.
+                In the meantime, please feel free to reach out to us if you have any questions or concerns. We appreciate your trust in us and are confident that you will find our service worth the wait.
+                Thank you again for your interest in our cyber security service!
+                Best regards,
+                Careful Watchers`;
     return(
         <>
         
@@ -31,15 +37,16 @@ const Subscribe = ()=>{
                 <input type = 'text' placeholder="Company" id = 'company-main'/>
 
             </div>
+
+               <input type="hidden" name="_autoresponse" value={message} />
             <div>
-                <input type = 'button' value ='Join The Waitlist' id = 'join-btn' />
+                <input type = 'Submit' value ='Join The Waitlist' id = 'join-btn' />
             </div>
            </form>
         </section>
         <Footer />
         </section>
-        <SideBar />
-        
+c
         </>
     )
 }
