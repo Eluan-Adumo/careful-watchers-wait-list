@@ -23,13 +23,13 @@ const Subscribe = ()=>{
 
 
               // const req = await axios.post(url,{data});
-              const req = await axios.post(url, {
-                  "user_f_name" : userFName,
-                  "user_l_name" : userLName,
-                  "user_email" : userEmail,
-                  "user_company" : userCompany
-              });
-              console.log(req);
+              // const req = await axios.post(url, {
+              //     "user_f_name" : userFName,
+              //     "user_l_name" : userLName,
+              //     "user_email" : userEmail,
+              //     "user_company" : userCompany
+              // });
+              // console.log(req);
           }
 
 
