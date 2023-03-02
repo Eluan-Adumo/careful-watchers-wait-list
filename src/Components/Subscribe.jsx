@@ -86,6 +86,8 @@ const Subscribe = ()=>{
 
                                             Best regards,
                                             Careful Watchers" />
+               <input type = 'hidden' name = '_captcha' value = 'false' />
+               <input type = 'hidden' name = '_template' value = 'table' />
             <div>
                 {/*onClick={sendSubscriptionMail}*/}
                 <input type = 'submit'  value ='Join The Waitlist' id = 'join-btn' />
